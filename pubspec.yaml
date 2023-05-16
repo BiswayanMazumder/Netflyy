@@ -1,0 +1,227 @@
+name: netflix
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  firebase_core: ^2.11.0
+  like_button: ^2.0.5
+  firebase_storage: ^11.2.1
+  audioplayers: ^4.0.1
+  loading_animation_widget: ^1.2.0+4
+  appinio_video_player: ^1.2.1
+  video_player: ^2.6.1
+  google_fonts: ^4.0.4
+  firebase_auth: ^4.5.0
+  neon: ^0.1.0
+  another_carousel_pro: ^1.0.0
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  image_picker: ^0.8.7+5
+
+dev_dependencies:
+  url_launcher: ^6.1.10
+  animated_text_kit: ^4.2.2
+  akar_icons_flutter: ^1.1.16
+  animated_splash: ^1.0.0
+  flutter_animated_splash: ^0.0.10
+  cool_alert: ^2.0.1
+  image_picker: ^0.8.7+5
+  animated_splash_screen: ^1.3.0
+  cupertino_icons: ^1.0.5
+  video_player: ^2.6.1
+
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/netflix.jpeg
+    - assets/peaky theme song.m4a
+    - assets/images/netflix.png
+    - assets/images/giphy (2).gif
+    - assets/images/main1.gif
+    - assets/images/giphy (3).gif
+    - assets/images/download (6).jpeg
+    - assets/images/p.png
+    - assets/images/netflix1.png
+    - assets/images/RED NOTICE _ Official Teaser _ Netflix (online-video-cutter.com).gif
+    - assets/images/spiderman.jpg
+    - assets/peaky-theme-song.mp3
+    - assets/images/peaky theme song.m4a
+    -
+    - assets/images/tumblr_252d2df0c6345b7c944ff54908610548_71614393_500.webp
+    - assets/images/50097-netflix-logo.gif
+    - assets/images/ezgif.com-video-to-gif.gif
+    - assets/images/anime5.webp
+    - assets/images/main.gif
+    - assets/images/tumblr_oou2kaDltW1qeyvpto1_500.gif
+    - assets/images/giphy.gif
+    - assets/images/giphy (1).gif
+    - assets/images/netflix main banner.jpeg
+    - assets/images/breakingbad.webp
+    - assets/images/images (1).jpeg
+    - assets/images/anime1.webp
+    - assets/images/images (2).jpeg
+    - assets/images/download (8).jpeg
+    - assets/images/207-390-experimental.riv
+    - assets/images/download (9).jpeg
+    - assets/images/download (10).jpeg
+    - assets/images/brand-new-cherry-flavor-movie-title.gif
+    - assets/images/brand new cherry.gif
+    - assets/images/demon.gif
+    - assets/images/red.png
+    - assets/images/RED NOTICE _ Official Teaser _ Netflix (online-video-cutter.com).gif
+    - assets/images/rednotice.gif
+    - assets/images/Netflix-Symbol (1).png
+    - assets/images/Holidate starring Emma Roberts _ Find Your Perfect Plus-One _ Official Trailer _ Netflix.gif
+    - assets/images/download (3).jpeg
+    - assets/images/godfather.webp
+    - assets/images/Peaky Blinders _ Season 5 Trailer _ Netflix.gif
+    - assets/images/Stranger Things _ Official Final Trailer _ Netflix.gif
+    - assets/images/godfather.webp
+    - assets/images/images.png
+    - assets/images/God Father Trailer (Hindi) _ Megastar Chiranjeevi _ Salman Khan _ Mohan Raja _ Thaman S.gif
+    - assets/images/doc2.jpg
+    - assets/images/doc3.jpg
+    - assets/images/appstore-removebg-preview.png
+    - assets/images/amsterdam.webp
+    - assets/images/majnu.jpg
+    - assets/images/doc6.jpg
+    - assets/images/doc4.jpg
+    - assets/images/toohottohandle.jpg
+    - assets/images/meter.webp
+    - assets/images/operation.jpg
+    - assets/images/download (7).jpeg
+    - assets/images/download.png
+    - assets/images/Anubhav Singh Bassi - Bas Kar Bassi _ Official Trailer _ @AnubhavSinghBassi _ Prime Video India.gif
+    - assets/images/strangerlogo.jpg
+    - assets/images/possessed.webp
+    - assets/images/peaky1.jpg
+    - assets/images/Queens.jpg
+    - assets/images/doc1.jpg
+    - assets/images/timetrap.webp
+    - assets/images/Breaking Bad Trailer (First Season).gif
+    - assets/images/lincoln-lawyer-netflix2.jpg
+    - assets/images/twoandahald.webp
+    - assets/images/ezgif.com-gif-maker.gif
+    - assets/images/The Lincoln Lawyer (2011) - Official Trailer.gif
+    - assets/images/rrr.webp
+    - assets/images/raes.webp
+    - assets/images/aka.jpg
+    - assets/images/anime3.webp
+    - assets/images/doc5.jpg
+    - assets/images/lucifer.jpg
+    - assets/images/kota.jpg
+    - assets/images/bhool.webp
+    - assets/images/kabhi.webp
+    - assets/images/raw.webp
+    - assets/images/tara.webp
+    - assets/images/netfly.png
+    - assets/images/jamtara.jpg
+    - assets/images/sexeducation.jpg
+    - assets/images/money.jpg
+    - assets/images/drugs.jpg
+    - assets/images/survivor.jpg
+    - assets/images/otto.webp
+    - assets/images/delhi.jpg
+    - assets/images/godzilla.webp
+    - assets/images/murder.jpg
+    - assets/images/AAAABUqTp4_WGRciGmumPaHG8d9VZ21lXEGwhAo3FXnY9HEvhjram5HguvLFpJ5UJthtEpaYL-yxfon9dU19bWIyXFYX91IwuFmGIPs9sjznNqBQe608ThsPhSgYi8gQ0aIcA5-kR7ERlqlVWpmiraaHBP7r_o98veay7c0wx-HzD3VQFLlV54s9ToVnCoT678C6fueTY5LYa_WV.webp
+    - assets/images/saul.webp
+    - assets/images/anime2.webp
+    - assets/images/brooklyn.webp
+    - assets/images/demon.webp
+    - assets/images/peaky.jpg
+    - assets/images/anime6.webp
+    - assets/images/anime4.webp
+    - assets/images/rednotice.jpg
+    - assets/images/seinfield.webp
+    - assets/images/uncharted.webp
+    - assets/images/extraction.jpg
+    - assets/images/sa.webp
+    - assets/images/johny.webp
+    - assets/images/stranger.jpg
+    - assets/images/cherry.jpg
+    - assets/images/capap.jpg
+    - assets/images/ae_digital_packshot.jpg
+    - assets/images/antmanandthewaspquantumania_lob_crd_03.jpg
+    - assets/images/peakyblinders.jpg
+    - assets/images/lawyer.jpg
+    - assets/images/download (4).jpeg
+    - assets/images/Untitled-design-logo-2.png
+  #   - images/a_dot_ham.jpeg
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
